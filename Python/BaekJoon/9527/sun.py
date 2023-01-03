@@ -21,4 +21,5 @@ if __name__=="__main__":
 
     for i in range(1, 60):
         psum[i] = 2 * psum[i-1] + pow(2, i-1)
+
     print(count_bin(num2) - count_bin(num1-1))
