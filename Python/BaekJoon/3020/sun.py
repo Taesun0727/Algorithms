@@ -14,7 +14,7 @@ if __name__ == "__main__":
         else:
             cave[0] += 1
             cave[tmp] -= 1
-
+    print(cave)
     for i in  range(1, M):
         cave[i] += cave[i-1]
 
